@@ -21,4 +21,4 @@ jobs:
       - name: Install dependencies
         run: npm ci || npm install
       - name: Build And Run Next js
-        run: npm run build && npm run dev
+        run: npm run build
