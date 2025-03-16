@@ -9,54 +9,55 @@ const projects = [
     description:
       "Your personal knowledge hub to store, organize, and retrieve ideas effortlessly. Easily categorize notes, ideas, and files for quick access.",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js", "MongoDB", "Express.js", "Mongoose"],
-    github: "#",
+    github: "https://github.com/faizanr27/hive-Mind-fe",
+  },
+  {
+    title: "Web Scraper",
+    description: "This is a web scraper built using Puppeteer that can extract data from YouTube videos, websites, and tweets. It automates browser interactions to fetch relevant details efficiently.",
+    technologies: ["Node js", "Express", "Puppeteer"],
+    github: "https://github.com/faizanr27/Web-scrapper",
   },
   {
     title: "Dev Blog",
     description: "FullStack Blog App with minimalistic UI.",
     technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB", "Express.js", "Mongoose"],
-    github: "#",
+    github: "https://github.com/faizanr27/Dev-Blog",
   },
   {
     title: "Shortsy",
     description:
       "A full-stack URL shortener with JWT authentication and bcrypt for password hashing. Uses MongoDB as the database and features a clean interface with Shadcn UI.",
     technologies: ["React.js", "Tailwind CSS", "Shadcn/ui", "Node.js", "MongoDB", "Express.js", "Mongoose"],
-    github: "#",
+    github: "https://github.com/faizanr27/shortsy/",
+  },
+
+  {
+    title: "TubeSage",
+    description: "Tube Sage makes it easy to paste blog or YouTube links and get the key information in seconds using AI.",
+    technologies: ["Work in progress","React", "Tailwind CSS", "Framer Motion", "Gemini", "Nodejs", "Express js"],
+    github: "https://github.com/faizanr27/TubeSage",
   },
   {
-    title: "Echo Landing Page",
-    description: "Landing page for Echo, an HTTP client for the terminal.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion", "Shadcn"],
-    github: "#",
-  },
-  {
-    title: "Portfolio Website",
-    description: "Showcases my projects and skills with a clean, modern design.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "#",
-  },
-  {
-    title: "Food Facts",
+    title: "Chat App using websockets",
     description:
-      "A web application allowing users to search for product details using the OpenFoodFacts API and provides a paginated view of product lists.",
-    technologies: ["React.js", "Tailwind CSS", "OpenFoodFacts API"],
-    github: "#",
+      "A simple chat app built using WEBSOCKETS",
+    technologies: ["React.js", "Tailwind CSS", "websockets", 'Nodejs', 'Express'],
+    github: "https://github.com/faizanr27/Ws-chat-app",
   },
-  {
-    title: "Blogr Landing Page",
-    description:
-      "A responsive landing page built using React with custom CSS for styling. The page is fully responsive and optimized for different screen sizes.",
-    technologies: ["React", "CSS", "JavaScript"],
-    github: "#",
-  },
-  {
-    title: "Campus Connect",
-    description:
-      "A web-based application to help students manage shared resources, plan group activities, and communicate when working on academic projects.",
-    technologies: ["React", "Firebase"],
-    github: "#",
-  },
+  // {
+  //   title: "Blogr Landing Page",
+  //   description:
+  //     "A responsive landing page built using React with custom CSS for styling. The page is fully responsive and optimized for different screen sizes.",
+  //   technologies: ["React", "CSS", "JavaScript"],
+  //   github: "#",
+  // },
+  // {
+  //   title: "Campus Connect",
+  //   description:
+  //     "A web-based application to help students manage shared resources, plan group activities, and communicate when working on academic projects.",
+  //   technologies: ["React", "Firebase"],
+  //   github: "#",
+  // },
 ]
 
 export default function ProjectsPage() {
