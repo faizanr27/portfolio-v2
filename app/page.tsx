@@ -42,7 +42,7 @@ const projects = [
     title: 'WEB2MD',
     description: 'This project is a web scraper that uses Puppeteer and Cheerio to extract webpage content, convert it into Markdown, and cache results in Redis for improved performance.',
     tech: ['Node.js', 'Express', 'Redis', 'Puppeteer'],
-    githubLink: "#",
+    githubLink: "https://web2-md.vercel.app/",
     liveLink: 'https://github.com/faizanr27/Web2MD',
   },
 ];
