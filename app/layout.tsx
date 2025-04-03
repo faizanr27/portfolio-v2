@@ -1,6 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Jura } from 'next/font/google';
+import { Analytics } from "@vercel/analytics/react"
 
 const jura = Jura({ subsets: ['latin'] });
 
@@ -28,7 +29,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={jura.className}>{children}</body>
+      <body className={jura.className}>
+      {children}
+      <Analytics />
+      </body>
     </html>
   );
 }
