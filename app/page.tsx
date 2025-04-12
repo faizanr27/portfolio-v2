@@ -157,7 +157,7 @@ export default function Homee() {
           </Link>
 
           <Link
-            href="https://www.linkedin.com/in/faizan-raza-3b3a22203/"
+            href="https://www.linkedin.com/in/faizanr27"
             target="_blank"
             rel="noopener noreferrer"
           >
