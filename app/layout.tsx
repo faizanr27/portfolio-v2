@@ -24,8 +24,8 @@ export const metadata: Metadata = {
 		images: [
 			{
 				url: "/banner/banner.png",
-				width: 500,
-				height: 400,
+				width: 1200,
+				height: 630,
 				alt: "Faizan Raza Frontend Developer",
 			},
 		],
