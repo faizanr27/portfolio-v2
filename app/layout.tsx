@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 		type: "website",
 		images: [
 			{
-				url: "https://faizanraza.vercel.app/banner/banner.png",
+				url: "/banner/banner.png",
 				width: 500,
 				height: 400,
 				alt: "Faizan Raza Frontend Developer",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 		title: "Faizan Raza",
 		description: "Frontend developer from India. Building scalable web apps",
 		creator: "@__faizanr__",
-		images: ["https://faizanraza.vercel.app/banner/banner.png"],
+		images: ["/banner/banner.png"],
 	},
 	icons: {
 		icon: [
