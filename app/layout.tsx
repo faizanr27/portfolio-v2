@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: 'Faizan Raza',
     images: [
       {
-        url: '/profilebanner.png',
+        url: '/Profilebanner.png',
         width: 1200,
         height: 630,
         alt: 'Faizan Raza - Full Stack Developer',
