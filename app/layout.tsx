@@ -23,9 +23,9 @@ export const metadata: Metadata = {
 		type: "website",
 		images: [
 			{
-				url: "/banner/banner.png",
-				width: 1200,
-				height: 630,
+				url: "https://faizanraza.vercel.app/banner/banner.png",
+				width: 500,
+				height: 400,
 				alt: "Faizan Raza Frontend Developer",
 			},
 		],
@@ -42,15 +42,11 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Faizan Raza",
 		card: "summary_large_image",
+		title: "Faizan Raza",
+		description: "Frontend developer from India. Building scalable web apps",
 		creator: "@__faizanr__",
-		creatorId: "@__faizanr__",
-		site: "@__faizanr__",
-		siteId: "@__faizanr__",
-		description:
-			"Frontend developer from India. Building scalable web apps",
-		images: ["/banner/banner.png"],
+		images: ["https://faizanraza.vercel.app/banner/banner.png"],
 	},
 	icons: {
 		icon: [
