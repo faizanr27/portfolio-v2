@@ -1,5 +1,4 @@
 'use client';
-
 import { Github, Mail, Linkedin, Home, User, Code, Briefcase, Send , Link2, Globe} from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Card } from '@/components/ui/card';
@@ -49,7 +48,6 @@ const projects = [
 
 const navItems = [
   { label: 'Home', link: '/' },
-  // { label: 'Skills', link: '/skills' },
   { label: 'Projects', link: '/projects' },
   { label: 'Contact', link: '/contact' },
 ];
@@ -121,7 +119,7 @@ export default function Homee() {
           </h1>
 
           <p className="text-xl text-zinc-200 mb-8">
-            A passionate front-end developer dedicated to building high-quality,
+            A front-end developer dedicated to building high-quality,
             scalable web applications.
           </p>
         </motion.div>
