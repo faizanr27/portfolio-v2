@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { GithubGraph } from '@/components/ui/github';
+// import { GithubGraph } from '@/components/ui/github';
 import { useState } from 'react';
 import Link from "next/link";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
@@ -217,7 +217,7 @@ export default function Homee() {
           </a>
 
         </motion.section> */}
-        <motion.section
+{/*         <motion.section
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.6 }}
@@ -249,7 +249,7 @@ export default function Homee() {
               ]}
             />
           </a>
-        </motion.section>
+        </motion.section> */}
 
         <motion.section
           initial={{ opacity: 0, y: 20 }}
