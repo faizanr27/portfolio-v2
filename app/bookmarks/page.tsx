@@ -16,6 +16,7 @@ export default function Bookmarks() {
 
   const articles = [
     { name: "How does a screen work?", icon: "▣", url: "https://www.makingsoftware.com/chapters/how-a-screen-works" },
+    { name: "LeeRob Bookmarks", icon: "→", url: "https://leerob.com/bookmarks"},
   ]
 
   return (
